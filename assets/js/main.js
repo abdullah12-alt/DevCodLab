@@ -29,8 +29,8 @@ navbarToggler.addEventListener("click", function () {
   navbar.classList.toggle("menu-show");
   this.ariaExpanded = !isExpanded;
   navbarToggler.innerHTML = navbar.classList.contains("menu-show")
-    ? '<i class="lni lni-close"></i>'
-    : '<i class="lni lni-menu"></i>';
+    ? '<i class="lni lni-chevron-up-circle"></i>'
+    : '<i class="lni lni-menu-hamburger-1"></i>';
 });
 
 // Sticky navbar
@@ -50,13 +50,13 @@ window.addEventListener("load", function () {
   var theme = localStorage.getItem("Inazuma_WebTheme");
 
   if (theme == "light") {
-    webTheme.innerHTML = '<i class="lni lni-sun"></i>';
+    webTheme.innerHTML = '<i class="lni lni-sun-1"></i>';
   } else if (theme == "dark") {
-    webTheme.innerHTML = '<i class="lni lni-night"></i>';
+    webTheme.innerHTML = '<i class="lni lni-moon-half-right-5"></i>';
   } else {
     theme = "light";
     localStorage.setItem("Inazuma_WebTheme", theme);
-    webTheme.innerHTML = '<i class="lni lni-night"></i>';
+    webTheme.innerHTML = '<i class="lni lni-moon-half-right-5"></i>'
   }
 
   html.dataset.webTheme = theme;
@@ -67,8 +67,8 @@ webTheme.addEventListener("click", function () {
 
   webTheme.innerHTML =
     theme == "dark"
-      ? '<i class="lni lni-sun"></i>'
-      : '<i class="lni lni-night"></i>';
+      ? '<i class="lni lni-sun-1"></i>'
+      : '<i class="lni lni-moon-half-right-5"></i>';
   theme = theme == "dark" ? "light" : "dark";
   localStorage.setItem("Inazuma_WebTheme", theme);
   html.dataset.webTheme = theme;
