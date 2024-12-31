@@ -28,7 +28,7 @@ You can see the live demo [here](https://abdullah12-alt.github.io/techdotlab/).
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/inazuma-tailwind.git
+git clone https://github.com/abdullah12-alt/techdotlab/
 ```
 2. Or you can download and extract it to your project folder.
 3. Open `index.html` in your web browser.
