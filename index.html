@@ -34,6 +34,8 @@
       property="og:description"
     />
 
+    <!-- social icon -->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
 
     <!-- TODO -->
     <meta content="./assets/img/inazuma-cover.png" property="og:image" />
@@ -263,7 +265,7 @@
             ></button>
               <div class="hidden sm:flex">
                 <a
-                  href="javascript:void(0)"
+                  href="#contact"
                   class="btn-navbar ml-5 px-6 py-3 rounded-md bg-primary-color bg-opacity-20 text-base font-medium text-primary-color hover:bg-opacity-100 hover:text-primary"
                   role="button"
                   >Get Started</a
@@ -303,7 +305,7 @@
                 >
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#contact"
                       class="inline-flex items-center justify-center rounded-md bg-primary-color text-primary px-5 py-3 text-center text-base font-medium shadow-md hover:bg-primary-light-5 md:px-7 md:py-[14px]"
                       role="button"
                       >Get Started</a
@@ -409,7 +411,7 @@
                     Our Vision
                   </button>
 
-                  <!-- <button
+                  <button
                     type="button"
                     class="tabs-link inline-block py-2 px-4 rounded-md text-body-light-12 dark:text-body-dark-12 bg-body-light-12/10 dark:bg-body-dark-12/10 text-inherit font-medium hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color"
                     data-web-toggle="tabs"
@@ -419,7 +421,7 @@
                     aria-controls="tabs-panel-history"
                   >
                     Our History
-                  </button> -->
+                  </button>
                 </nav>
 
                 <div
@@ -646,17 +648,17 @@
               Discover the impact we’ve made! Explore our latest projects and success stories, showcasing innovation and excellence in every solution we deliver.
             </p>
           </div>
-
-          <!-- <nav
+<!-- 
+          <nav
             class="scroll-revealed portfolio-menu mb-[3.750rem] text-center"
             aria-label="Portfolio filter"
           >
             <button
               type="button"
               class="font-semibold px-5 py-2 rounded-md text-body-light-11 dark:text-body-dark-11 hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color active"
-              data-filter="all"
+              data-filter="web"
             >
-              All Work
+              Web Development
             </button>
             <button
               type="button"
@@ -686,11 +688,19 @@
             >
               Research
             </button>
+            <button
+              type="button"
+              class="font-semibold px-5 py-2 rounded-md text-body-light-11 dark:text-body-dark-11 hover:bg-primary hover:text-primary-color focus:bg-primary focus:text-primary-color"
+              data-filter="mobile-application"
+            >
+              Mobile Application
+            </button>
+            
           </nav> -->
 
           <div class="scroll-revealed portfolio-grid row">
             <div class="portfolio col-12 sm:col-6 lg:col-4">
-              <article class="group" data-filter="branding">
+              <article class="group" data-filter="web">
                 <div
                   class="relative overflow-hidden w-full aspect-[4/3] rounded-xl"
                 >
@@ -740,7 +750,7 @@
             </div>
 
             <div class="portfolio col-12 sm:col-6 lg:col-4">
-              <article class="group" data-filter="research">
+              <article class="group" data-filter="web">
                 <div
                   class="relative overflow-hidden w-full aspect-[4/3] rounded-xl"
                 >
@@ -792,7 +802,7 @@
             </div>
 
             <div class="portfolio col-12 sm:col-6 lg:col-4">
-              <article class="group" data-filter="marketing">
+              <article class="group" data-filter="web">
                 <div
                   class="relative overflow-hidden w-full aspect-[4/3] rounded-xl"
                 >
@@ -840,7 +850,154 @@
                 </div>
               </article>
             </div>
-
+            
+            <!-- Adding Andriod Cards -->
+            <!-- Scan Device App -->
+              <div class="portfolio col-12 sm:col-6 lg:col-4">
+                <article class="group" data-filter="mobile-application">
+                  <div
+                    class="relative overflow-hidden w-full aspect-[4/3] rounded-xl"
+                  >
+                    <img
+                      src="./assets/img/portfolio/latest/scandevice01.PNG"
+                      alt="Scan Device App"
+                      class="w-full h-full object-cover"
+                    />
+                    <div
+                      class="absolute top-0 left-0 w-full aspect-[4/3] flex items-center justify-center bg-body-light-1/75 scale-[0.15] rounded-xl opacity-0 invisible group-hover:scale-95 group-hover:opacity-100 group-hover:visible"
+                    >
+                      <div class="flex flex-wrap gap-2 p-4">
+                        <div class="inline-block relative">
+                          <a
+                            href="./assets/img/portfolio/latest/scandevice01.PNG"
+                            class="portfolio-box text-[1.75rem] text-primary-color bg-primary z-10 w-[60px] aspect-square rounded-lg text-center inline-flex items-center justify-center hover:bg-primary-light-10 hover:text-primary-color dark:hover:bg-primary-dark-10 dark:hover:text-primary-color focus:bg-primary-light-10 focus:text-primary-color dark:focus:bg-primary-dark-10 dark:focus:text-primary-color"
+                          >
+                            <i class="lni lni-expand-arrow-1"></i>
+                          </a>
+                        </div>
+                        <div class="portfolio-icon">
+                          <a
+                            href="javascript:void(0)"
+                            class="text-[1.75rem] text-primary-color bg-primary z-10 w-[60px] aspect-square rounded-lg text-center inline-flex items-center justify-center hover:bg-primary-light-10 hover:text-primary-color dark:hover:bg-primary-dark-10 dark:hover:text-primary-color focus:bg-primary-light-10 focus:text-primary-color dark:focus:bg-primary-dark-10 dark:focus:text-primary-color"
+                          >
+                          <i class="lni lni-link-2-angular-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pt-4">
+                    <h4 class="mb-2">
+                      <a
+                        href="javascript:void(0)"
+                        class="text-[1.5rem] leading-tight text-inherit"
+                        >Scan Device App</a
+                      >
+                    </h4>
+                    <p>
+                      Smartly scan, detect, and manage device details effortlessly with exceptional precision.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <!-- Food Recipe App -->
+              <div class="portfolio col-12 sm:col-6 lg:col-4">
+                <article class="group" data-filter="mobile-application">
+                  <div
+                    class="relative overflow-hidden w-full aspect-[4/3] rounded-xl"
+                  >
+                    <img
+                      src="./assets/img/portfolio/latest/foodrecipeapp01.PNG"
+                      alt="Food Recipe App"
+                      class="w-full h-full object-cover"
+                    />
+                    <div
+                      class="absolute top-0 left-0 w-full aspect-[4/3] flex items-center justify-center bg-body-light-1/75 scale-[0.15] rounded-xl opacity-0 invisible group-hover:scale-95 group-hover:opacity-100 group-hover:visible"
+                    >
+                      <div class="flex flex-wrap gap-2 p-4">
+                        <div class="inline-block relative">
+                          <a
+                            href="./assets/img/portfolio/latest/foodrecipeapp01.PNG"
+                            class="portfolio-box text-[1.75rem] text-primary-color bg-primary z-10 w-[60px] aspect-square rounded-lg text-center inline-flex items-center justify-center hover:bg-primary-light-10 hover:text-primary-color dark:hover:bg-primary-dark-10 dark:hover:text-primary-color focus:bg-primary-light-10 focus:text-primary-color dark:focus:bg-primary-dark-10 dark:focus:text-primary-color"
+                          >
+                            <i class="lni lni-expand-arrow-1"></i>
+                          </a>
+                        </div>
+                        <div class="portfolio-icon">
+                          <a
+                            href="javascript:void(0)"
+                            class="text-[1.75rem] text-primary-color bg-primary z-10 w-[60px] aspect-square rounded-lg text-center inline-flex items-center justify-center hover:bg-primary-light-10 hover:text-primary-color dark:hover:bg-primary-dark-10 dark:hover:text-primary-color focus:bg-primary-light-10 focus:text-primary-color dark:focus:bg-primary-dark-10 dark:focus:text-primary-color"
+                          >
+                          <i class="lni lni-link-2-angular-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pt-4">
+                    <h4 class="mb-2">
+                      <a
+                        href="javascript:void(0)"
+                        class="text-[1.5rem] leading-tight text-inherit"
+                        >Food Recipe App</a
+                      >
+                    </h4>
+                    <p>
+                      Discover, save, and cook delicious recipes seamlessly with Food Recipe App.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <!-- Active Ecomerce Seller App -->
+              <div class="portfolio col-12 sm:col-6 lg:col-4">
+                <article class="group" data-filter="mobile-application">
+                  <div
+                    class="relative overflow-hidden w-full aspect-[4/3] rounded-xl"
+                  >
+                    <img
+                      src="./assets/img/portfolio/latest/ecomerceapp01.PNG"
+                      alt="Active Ecomerce App"
+                      class="w-full h-full object-cover"
+                    />
+                    <div
+                      class="absolute top-0 left-0 w-full aspect-[4/3] flex items-center justify-center bg-body-light-1/75 scale-[0.15] rounded-xl opacity-0 invisible group-hover:scale-95 group-hover:opacity-100 group-hover:visible"
+                    >
+                      <div class="flex flex-wrap gap-2 p-4">
+                        <div class="inline-block relative">
+                          <a
+                            href="./assets/img/portfolio/latest/ecomerceapp01.PNG"
+                            class="portfolio-box text-[1.75rem] text-primary-color bg-primary z-10 w-[60px] aspect-square rounded-lg text-center inline-flex items-center justify-center hover:bg-primary-light-10 hover:text-primary-color dark:hover:bg-primary-dark-10 dark:hover:text-primary-color focus:bg-primary-light-10 focus:text-primary-color dark:focus:bg-primary-dark-10 dark:focus:text-primary-color"
+                          >
+                            <i class="lni lni-expand-arrow-1"></i>
+                          </a>
+                        </div>
+                        <div class="portfolio-icon">
+                          <a
+                            href="javascript:void(0)"
+                            class="text-[1.75rem] text-primary-color bg-primary z-10 w-[60px] aspect-square rounded-lg text-center inline-flex items-center justify-center hover:bg-primary-light-10 hover:text-primary-color dark:hover:bg-primary-dark-10 dark:hover:text-primary-color focus:bg-primary-light-10 focus:text-primary-color dark:focus:bg-primary-dark-10 dark:focus:text-primary-color"
+                          >
+                          <i class="lni lni-link-2-angular-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pt-4">
+                    <h4 class="mb-2">
+                      <a
+                        href="javascript:void(0)"
+                        class="text-[1.5rem] leading-tight text-inherit"
+                        >Active Ecommerce App</a
+                      >
+                    </h4>
+                    <p>
+                      Manage products, track orders, and boost sales with Active Ecommerce Seller App.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              
+            
             <!-- <div class="portfolio col-12 sm:col-6 lg:col-4">
               <article class="group" data-filter="planning">
                 <div
@@ -1245,7 +1402,7 @@
               Ready to elevate your business to new heights? We’re passionate about crafting perfect, customized solutions that drive success and innovation for your brand. Let’s work together, contact us today!
             </p>
             <a
-              href="javascript:void(0)"
+              href="#contact"
               class="inline-block px-5 py-3 rounded-md mt-11 bg-green-400 text-white hover:bg-green-500 hover:text-white focus:bg-green-500 focus:text-white"
               role="button"
               >Get Started Now</a
@@ -1295,7 +1452,7 @@
                     CEO & Co-founder
                   </p>
                   <div class="flex items-center justify-center gap-5">
-                    <a
+                    <!-- <a
                       href="javascript:void(0)"
                       class="text-body-light-10 dark:text-body-dark-10 hover:text-primary"
                     >
@@ -1306,12 +1463,14 @@
                       class="text-body-light-10 dark:text-body-dark-10 hover:text-primary"
                     >
                       <i class="lni lni-twitter-original"></i>
-                    </a>
+                    </a> -->
                     <a
-                      href="javascript:void(0)"
+                      href="https://www.linkedin.com/in/muhammad-saad-ijaz-aa62a3218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                      target="_blank"
                       class="text-body-light-10 dark:text-body-dark-10 hover:text-primary"
+                      style="font-size: 25px;"
                     >
-                      <i class="lni lni-instagram-original"></i>
+                      <i class="lni lni-linkedin"></i>
                     </a>
                   </div>
                 </figcaption>
@@ -1347,7 +1506,7 @@
                   CTO & Co-founder
                   </p>
                   <div class="flex items-center justify-center gap-5">
-                    <a
+                    <!-- <a
                       href="javascript:void(0)"
                       class="text-body-light-10 dark:text-body-dark-10 hover:text-primary"
                     >
@@ -1358,12 +1517,68 @@
                       class="text-body-light-10 dark:text-body-dark-10 hover:text-primary"
                     >
                       <i class="lni lni-twitter-original"></i>
+                    </a> -->
+                    <a
+                      href="https://www.linkedin.com/in/iamabdullah-hassan"
+                      target="_blank"
+                      class="text-body-light-10 dark:text-body-dark-10 hover:text-primary"
+                      style="font-size: 25px;"                      
+                    >
+                      <i class="lni lni-linkedin"></i>
+                    </a>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="scroll-revealed col-12 sm:col-6 md:col-4 lg:col-3">
+              <figure
+                class="group rounded-xl bg-body-light-1 dark:bg-body-dark-12/10 px-5 pb-10 pt-12 shadow-card-2 hover:shadow-lg hover:-translate-y-1"
+              >
+                <div class="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
+                  <img
+                    src="./assets/img/avatar/Muhammad Burhan.jpg"
+                    alt="Team picture"
+                    class="h-full w-full rounded-full object-cover"
+                  />
+                  <span
+                    class="absolute bottom-0 left-0 -z-10 h-10 w-10 rounded-full bg-red-500 opacity-0 group-hover:opacity-100"
+                  ></span>
+                  <span
+                    class="absolute top-0 right-0 -z-10 h-10 w-10 rounded-full bg-blue-500 opacity-0 group-hover:opacity-100"
+                  ></span>
+                </div>
+                <figcaption class="text-center block">
+                  <h4
+                    class="mb-1 text-lg font-semibold text-body-light-12 dark:text-body-dark-12"
+                  >
+                    Muhammad Burhan
+                  </h4>
+                  <p
+                    class="mb-5 text-sm text-body-light-11 dark:text-body-dark-11"
+                  >
+                  Tech Lead
+                  </p>
+                  <div class="flex items-center justify-center gap-5">
+                    <!-- <a
+                      href="javascript:void(0)"
+                      class="text-body-light-10 dark:text-body-dark-10 hover:text-primary"
+                    >
+                      <i class="lni lni-facebook-fill"></i>
                     </a>
                     <a
                       href="javascript:void(0)"
                       class="text-body-light-10 dark:text-body-dark-10 hover:text-primary"
                     >
-                      <i class="lni lni-instagram-original"></i>
+                      <i class="lni lni-twitter-original"></i>
+                    </a> -->
+                    <a
+                      href="https://www.linkedin.com/in/muhammad-burhan-ud-din?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                      target="_blank"
+                      class="text-body-light-10 dark:text-body-dark-10 hover:text-primary"
+                      style="font-size: 25px;"                      
+                    >
+                      <i class="lni lni-linkedin"></i>
                     </a>
                   </div>
                 </figcaption>
@@ -2755,7 +2970,7 @@
                     </div>
                     <div>
                       <h4 class="text-[1.25rem] text-primary mb-3">Contact</h4>
-                      <p class="m-0">0984537278623</p>
+                      <p class="m-0">+44 7940 910 266</p>
                       <p class="m-0">yourmail@gmail.com</p>
                     </div>
                   </div>
@@ -2911,12 +3126,13 @@
                   href="javascript:void(0)"
                   class="px-3 text-body-dark-11 hover:text-primary text-[22px] leading-none"
                 >
-                  <i class="lni lni-facebook-fill"></i>
+                  <i class="lni lni-facebook"></i>
                 </a>
 
                 <a
                   href="javascript:void(0)"
                   class="px-3 text-body-dark-11 hover:text-primary text-[22px] leading-none"
+                  style="font-size: 30px;"
                 >
                   <i class="lni lni-twitter-original"></i>
                 </a>
@@ -2925,14 +3141,14 @@
                   href="javascript:void(0)"
                   class="px-3 text-body-dark-11 hover:text-primary text-[22px] leading-none"
                 >
-                  <i class="lni lni-instagram-original"></i>
+                  <i class="lni lni-instagram"></i>
                 </a>
 
                 <a
                   href="javascript:void(0)"
                   class="px-3 text-body-dark-11 hover:text-primary text-[22px] leading-none"
                 >
-                  <i class="lni lni-linkedin-original"></i>
+                  <i class="lni lni-linkedin"></i>
                 </a>
               </div>
             </div>

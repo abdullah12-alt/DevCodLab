@@ -5,7 +5,7 @@
 * Includes a dark & light theme mode
 * Responsive footer
 * SEO-Friendly
-* Compatible to all browsers
+* Compatible to all browsers .
 
 ## Technologies Used
 
