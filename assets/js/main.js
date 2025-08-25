@@ -1,17 +1,6 @@
 "use strict";
 
-// Page loading
-var pageLoading = document.querySelector(".page-loading");
-
-if (pageLoading) {
-  window.addEventListener("load", () => {
-    pageLoading.classList.add("hide");
-
-    setTimeout(() => {
-      pageLoading.style.display = "none";
-    }, 1000);
-  });
-}
+// Splash screen code removed
 
 // Navbar
 const navbar = document.querySelector(".ic-navbar"),
