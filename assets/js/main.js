@@ -31,37 +31,30 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// Web theme
+// Web theme (force dark mode; disable toggle if present)
 const webTheme = document.querySelector("[data-web-trigger=web-theme]"),
   html = document.querySelector("html");
 
 window.addEventListener("load", function () {
-  var theme = localStorage.getItem("Inazuma_WebTheme");
-
-  if (theme == "light") {
-    webTheme.innerHTML = '<i class="lni lni-sun-1"></i>';
-  } else if (theme == "dark") {
-    webTheme.innerHTML = '<i class="lni lni-moon-half-right-5"></i>';
-  } else {
-    theme = "light";
-    localStorage.setItem("Inazuma_WebTheme", theme);
-    webTheme.innerHTML = '<i class="lni lni-moon-half-right-5"></i>'
-  }
-
-  html.dataset.webTheme = theme;
-});
-
-webTheme.addEventListener("click", function () {
-  var theme = localStorage.getItem("Inazuma_WebTheme");
-
-  webTheme.innerHTML =
-    theme == "dark"
-      ? '<i class="lni lni-sun-1"></i>'
-      : '<i class="lni lni-moon-half-right-5"></i>';
-  theme = theme == "dark" ? "light" : "dark";
+  var theme = "dark";
   localStorage.setItem("Inazuma_WebTheme", theme);
-  html.dataset.webTheme = theme;
+  if (html) {
+    html.dataset.webTheme = theme;
+  }
+  if (webTheme) {
+    // Hide/disable the toggle button if it exists
+    webTheme.style.display = "none";
+  }
 });
+
+if (webTheme) {
+  webTheme.addEventListener("click", function (e) {
+    // Prevent toggling theme; keep dark
+    e.preventDefault();
+    e.stopPropagation();
+    return false;
+  });
+}
 
 // Scrollspy
 function scrollspy(event) {

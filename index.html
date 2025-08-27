@@ -4,33 +4,36 @@
     <!-- Meta Tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="Copyright" content="TechDot Lab" />
+    <meta http-equiv="Copyright" content="DevCodeLab" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="TechDot Lab" />
+    <meta name="author" content="DevCodeLab" />
     <meta name="rating" content="general" />
     <meta name="language" content="English" />
-    <meta name="application-name" content="TechDot Lab" />
+    <meta name="application-name" content="DevCodeLab" />
+    <meta name="description" content="DevCodeLab is a full-service IT solutions and software development consultancy. We deliver web, mobile, and AI solutions across .NET, Angular, React, Flutter, Django, Python, MERN, and JavaScript." />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta
     name="twitter:description"
-    content="TechDot Lab provides innovative web and mobile app development services to help businesses grow."
+    content="DevCodeLab provides innovative web and mobile app development services to help businesses grow."
   />
-  <meta name="keywords" content="software development, web development, mobile apps, custom solutions, ai solution,LLM, TechDot Lab" />
+  <meta name="keywords" content="IT solutions, software development, web development, web development consultation, .NET development, Angular development, React development, Flutter app development, Django development, Python development, MERN stack, JavaScript development, AI solutions, LLM, DevCodeLab" />
   <meta
   name="twitter:title"
-  content="TechDot Lab | Leading Software Development Company"
+  content="DevCodeLab | Leading Software Development Company"
 />
 <meta
   name="twitter:description"
-  content="TechDot Lab provides innovative web and mobile app development services to help businesses grow."
+  content="DevCodeLab provides innovative web and mobile app development services to help businesses grow."
 />
-    <meta name="twitter:image" content="./assets/img/inazuma-cover.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="./assets/img/preview.png" />
     <meta
-    content="TechDot Lab | Leading Software Development Company"
+    content="DevCodeLab | Leading Software Development Company"
     property="og:title"
   />
-  <meta content="TechDot Lab" property="og:site_name" />
+  <meta content="DevCodeLab" property="og:site_name" />
     <meta
-      content="TechDot Lab provides cutting-edge software development services, including custom web and mobile app solutions."
+      content="DevCodeLab provides cutting-edge software development services, including custom web and mobile app solutions."
       property="og:description"
     />
 
@@ -38,8 +41,8 @@
     <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
 
     <!-- TODO -->
-    <meta content="./assets/img/inazuma-cover.png" property="og:image" />
-    <meta content="#" property="og:url" />
+    <meta content="./assets/img/preview.png" property="og:image" />
+    <meta content="https://devcodelab.com/" property="og:url" />
     <meta content="website" property="og:type" />
 
     <meta name="msapplication-TileColor" content="#3d63dd" />
@@ -50,10 +53,10 @@
     <meta name="theme-color" content="#3d63dd" />
 
     <!-- Page title -->
-    <title>TechDot Lab | Software Development Company</title>
+    <title>DevCodeLab | Software Development Company</title>
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://TechDotlab.com" />
+    <link rel="canonical" href="https://devcodelab.com/" />
   <!-- TODO END  -->
     <!-- Favicon -->
     <link
@@ -119,7 +122,7 @@
           class="ic-navbar-container relative -mx-5 flex items-center justify-between"
         >
           <div class="w-60 lg:w-56 max-w-full px-5">
-            <img src="assets/img/logo.png" alt="">
+            <img src="assets/img/white-logo.png" alt="">
              <!-- <h4 class="logo-text">Tech<span style="color:blue;"> Dot </span>Lab</h4> -->
              <!-- <h4 style="font-family: Fantasy	, sans-serif; font-weight: 600; font-size: 1.2rem; color: #fffefe; letter-spacing: 1px; margin: 0; display: inline-block;">
               Tech<span style="color: #007BFF; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;"> Dot </span>Lab
@@ -238,12 +241,14 @@
               </nav>
             </div>
             <div class="flex items-center justify-end pr-[52px] lg:pr-0">
+              <!--
               <button
-              type="button"
-              class="inline-flex items-center text-primary-color text-[24px]/none"
-              aria-label="Switch theme"
-              data-web-trigger="web-theme"
-            ></button>
+                type="button"
+                class="inline-flex items-center text-primary-color text-[24px]/none"
+                aria-label="Switch theme"
+                data-web-trigger="web-theme"
+              ></button>
+              -->
               <div class="hidden sm:flex">
                 <a
                   href="#contact"
@@ -257,6 +262,67 @@
         </div>
       </div>
     </header>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "DevCodeLab",
+      "url": "https://devcodelab.com/",
+      "logo": "https://devcodelab.com/assets/img/logo%20(2).png",
+      "sameAs": [
+        "https://www.linkedin.com/",
+        "https://twitter.com/"
+      ],
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+1-000-000-0000",
+        "contactType": "customer service",
+        "areaServed": "Worldwide",
+        "availableLanguage": ["English"]
+      }]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "DevCodeLab",
+      "url": "https://devcodelab.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://devcodelab.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you provide .NET, Angular, React, Flutter, Django, Python, MERN, and AI services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. DevCodeLab delivers full-stack solutions across .NET, Angular, React, Flutter, Django, Python, MERN, JavaScript, and AI/LLM."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer web development consultation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer discovery, solution architecture, performance audits, and modernization roadmaps for web platforms."
+          }
+        }
+      ]
+    }
+    </script>
 
     <main class="main relative">
       <!-- Hero section -->
@@ -277,7 +343,7 @@
                 <p
                   class="mx-auto mb-9 max-w-[600px] text-base text-primary-color sm:text-lg sm:leading-normal"
                 >
-                At Tech Dot Lab, we specialize in delivering cutting-edge software development and IT solutions tailored to drive your business or brand forward.
+                At DevCodeLab, we specialize in delivering cutting-edge software development and IT solutions tailored to drive your business or brand forward.
 
                 </p>
 
@@ -408,10 +474,10 @@
                   aria-labelledby="tabs-list-profile"
                 >
                   <p>
-                    Tech Dot Lab is a forward-thinking technology solutions provider dedicated to helping businesses unlock growth and drive innovation. We specialize in offering tailored, high-impact solutions that address complex challenges and foster operational efficiency. Our team of passionate, experienced engineers and solution providers works closely with clients to understand their unique needs and deliver customized strategies.
+                    DevCodeLab is a forward-thinking technology solutions provider dedicated to helping businesses unlock growth and drive innovation. We specialize in offering tailored, high-impact solutions that address complex challenges and foster operational efficiency. Our team of passionate, experienced engineers and solution providers works closely with clients to understand their unique needs and deliver customized strategies.
                   </p>
                   <p>
-                    At Tech Dot Lab, we are committed to delivering lasting value, building strong partnerships, and guiding businesses through the ever-evolving technology landscape.
+                    At DevCodeLab, we are committed to delivering lasting value, building strong partnerships, and guiding businesses through the ever-evolving technology landscape.
                   </p>
                 </div>
 
@@ -423,7 +489,7 @@
                   aria-labelledby="tabs-list-vision"
                 >
                   <p>
-                    Our vision at Tech Dot Lab is to be a global leader in technology innovation, empowering businesses to thrive through creative solutions and expert guidance. We strive to be the go-to partner for companies seeking cutting-edge technology that drives efficiency, growth, and competitive advantage
+                    Our vision at DevCodeLab is to be a global leader in technology innovation, empowering businesses to thrive through creative solutions and expert guidance. We strive to be the go-to partner for companies seeking cutting-edge technology that drives efficiency, growth, and competitive advantage
                   </p>
                   <p>
                     By staying ahead of industry trends and embracing continuous learning, we aim to create long-term relationships with businesses around the world, helping them achieve their goals and shape the future of technology.
@@ -3049,11 +3115,13 @@
         <div class="row">
           <div class="col-12 order-first lg:col-4">
             <div class="w-full">
-             <img class="w-30 h-20" src="assets/img/Logo.png">
+            
 
-              <p class="mb-8 text-body-dark-11">
-                We create digital experiences for brands and companies by using
-                technology.
+              <p class="mb-8 text-body-dark-11 text-justify">
+                We design and deliver engaging digital experiences that help brands and companies connect with their audiences in meaningful ways.
+                 By leveraging the latest technology, creativity, and innovation, we craft solutions that are not only visually compelling but also functional,
+                  user-friendly, and strategically aligned with business goals. From interactive websites and mobile applications to immersive digital campaigns
+                   and platforms.
               </p>
 
               <div class="-mx-3 flex items-center">
@@ -3216,7 +3284,7 @@
           <div class="w-full md:w-1/2">
             <div class="my-1 flex justify-center md:justify-end">
               <p class="text-body-dark-11">
-                &#169;Tech dot lab. All rights reserved.
+                &#169;DevCodeLab. All rights reserved.
               </p>
             </div>
           </div>
