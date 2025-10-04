@@ -1,5 +1,5 @@
 {
-  "name": "inazuma-tailwind",
+  "name": "codelinetech-ltd",
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ranyeh24/inazuma-tailwind.git",
+    "url": "git+https://github.com/abdullah12-alt/techdotlab.git",
   },
-  "keywords": ["company", "landing page"],
-  "author": "Ranyeh",
+  "keywords": ["CodelineTech Ltd", "software development", "IT solutions", "landing page"],
+  "author": "CodelineTech Ltd",
   "license": "MIT",
-  "description": "Tailwind CSS Company Landing Page Template by Ranyeh.",
+  "description": "CodelineTech Ltd - Full-service IT solutions and software development consultancy landing page.",
   "devDependencies": {
     "tailwindcss": "^3.4.10"
   }

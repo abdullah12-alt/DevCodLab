@@ -22,7 +22,7 @@
 
 ## Live Demo
 
-You can see the live demo [here](https://abdullah12-alt.github.io/techdotlab/).
+You can see the live demo [here](https://cloudlinetechltd.com/).
 
 ## Installation
 

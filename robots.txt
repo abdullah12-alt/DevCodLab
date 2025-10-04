@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://devcodelab.com/sitemap.xml
+Sitemap: https://cloudlinetechltd.com/sitemap.xml
 
